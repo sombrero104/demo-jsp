@@ -29,4 +29,5 @@ $ java -jar target/demo-jsp-0.0.1-SNAPSHOT.war
 </pre>
 이처럼 war 파일도 jar처럼 독립적으로 웹 애플리케이션을 실행할 수 있다. <br/>
 그리고 이 war 파일을 톰캣에 배포하는 것도 가능하다. (ServletInitializer 클래스 파일이 있기 때문에)<br/>
+** 스프링부트에서는 JSP를 가급적이면 피하라고 권장한다. <br/>
 <br/><br/>
