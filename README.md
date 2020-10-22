@@ -16,4 +16,11 @@
     원하는 구성을 할 수 있는 Jar 포맷과 달리 War는 WEB-INF 및 META-INF 디렉토리로 사전 정의된 구조를 사용하며,<br/>
     WAR 파일을 실행하려면 Tomcat, Weblogic, WebSphere 등의 웹 서버(WEB) 또는 웹 컨테이너(WAS)가 필요하다. <br/>
 
+#### 메이븐 빌드
+스프링부트로 프로젝트를 만들면 프로젝트 경로에 mvnw가 생긴다.<br/>
+터미널에서 './mvnw package'를 실행하면 빌드가 되어 아래처럼 war 파일이 생기는 것을 확인할 수 있다.<br/>
+<pre>
+Building war: /Users/sombrero104/IdeaProjects/demo-jsp/target/demo-jsp-0.0.1-SNAPSHOT.war
+</pre>
+
 <br/><br/>
