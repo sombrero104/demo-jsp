@@ -23,4 +23,10 @@
 Building war: /Users/sombrero104/IdeaProjects/demo-jsp/target/demo-jsp-0.0.1-SNAPSHOT.war
 </pre>
 
+그리고 아래처럼 실행하면 웹 애플리케이션이 실행된다.<br/>
+<pre>
+$ java -jar target/demo-jsp-0.0.1-SNAPSHOT.war
+</pre>
+이처럼 war 파일도 jar처럼 독립적으로 웹 애플리케이션을 실행할 수 있다. <br/>
+
 <br/><br/>
