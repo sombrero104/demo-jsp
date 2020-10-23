@@ -47,6 +47,7 @@ $ chmod +x *.sh
 (1) demo-jsp:war               => war로 압축된 형태로 배포.
 (2) demo-jsp:war exploded      => 압축을 푼 형태로 배포.
 </pre>
+이렇게 설정한 후 톰캣을 실행하면, ServletInitializer 클래스 파일로 인해 웹 애플리케이션이 실행되게 된다. <br/>
 <br/>
 
 <br/><br/>
