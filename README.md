@@ -41,6 +41,12 @@ $ java -jar target/demo-jsp-0.0.1-SNAPSHOT.war
 $ cd bin
 $ chmod +x *.sh
 </pre>
+인텔리제이에서 실행 시 Edit Configuration에서 톰캣을 추가하고,<br/>
+배포할 때 압축된 war 형태로 배포할 것인지 압축을 풀어서(exploded) 배포할 것인지에 대해 artifact를 설정해준다.<br/>
+<pre>
+(1) demo-jsp:war               => war로 압축된 형태로 배포.
+(2) demo-jsp:war exploded      => 압축을 푼 형태로 배포.
+</pre>
 <br/>
 
 <br/><br/>
