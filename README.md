@@ -31,4 +31,11 @@ $ java -jar target/demo-jsp-0.0.1-SNAPSHOT.war
 이처럼 war 파일도 jar처럼 독립적으로 웹 애플리케이션을 실행할 수 있다. <br/>
 그리고 이 war 파일을 톰캣에 배포하는 것도 가능하다. (ServletInitializer 클래스 파일이 있기 때문에)<br/>
 
+### 톰캣에 배포
+톰캣을 zip으로 압축된 파일을 다운로드 받으면 실행권한이 초기화되어 있기 때문에 아래와 같이 실행권한을 준다.<br/>
+<pre>
+$ cd bin
+$ chmod +x *.sh
+</pre>
+
 <br/><br/>
